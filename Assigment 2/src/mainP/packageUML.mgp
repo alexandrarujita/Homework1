@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="mainP" x="152" y="87">
+        <DependencyLink destination="GUI"/>
+    </Package>
+    <Package name="GUI" x="185" y="195">
+        <DependencyLink destination="BLL">
+            <Point x="107" y="299"/>
+        </DependencyLink>
+        <DependencyLink destination="model">
+            <Point x="248" y="76"/>
+        </DependencyLink>
+    </Package>
+    <Package name="model" x="332" y="61">
+        <DependencyLink destination="BLL">
+            <Point x="431" y="208"/>
+        </DependencyLink>
+    </Package>
+    <Package name="DAL" x="537" y="307">
+        <DependencyLink destination="model">
+            <Point x="568" y="139"/>
+        </DependencyLink>
+    </Package>
+    <Package name="BLL" x="242" y="329">
+        <DependencyLink destination="model">
+            <Point x="286" y="213"/>
+        </DependencyLink>
+        <DependencyLink destination="DAL"/>
+    </Package>
+</PackageAnalysis>
