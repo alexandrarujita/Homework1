@@ -1,0 +1,10 @@
+Cash register no  0 had 8 customers, with average waiting time: 19 
+
+Cash register no  1 had 2 customers, with average waiting time: 32 
+
+Cash register no  2 had 0 customers, with average waiting time: 0 
+
+Cash register no  3 had 0 customers, with average waiting time: 0 
+
+Cash register no  4 had 0 customers, with average waiting time: 0 
+
