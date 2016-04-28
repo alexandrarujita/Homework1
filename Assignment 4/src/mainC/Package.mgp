@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="mainC" x="107" y="117">
+        <DependencyLink destination="gui"/>
+    </Package>
+    <Package name="gui" x="272" y="161">
+        <DependencyLink destination="bank"/>
+        <DependencyLink destination="files"/>
+    </Package>
+    <Package name="files" x="409" y="76">
+        <DependencyLink destination="bank"/>
+    </Package>
+    <Package name="bank" x="429" y="212">
+        <DependencyLink destination="files"/>
+    </Package>
+</PackageAnalysis>

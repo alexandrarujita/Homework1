@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="mainC.mainC" x="149" y="191"/>
+    <CommunicationClass name="bank.BankInterface" x="401" y="205"/>
+    <CommunicationClass name="bank.SavingAccount" x="143" y="98">
+        <Extension destinationClassName="bank.Account"/>
+    </CommunicationClass>
+    <CommunicationClass name="bank.SpendingAccount" x="290" y="110">
+        <Extension destinationClassName="bank.Account"/>
+    </CommunicationClass>
+    <CommunicationClass name="bank.Person" x="264" y="212"/>
+    <CommunicationClass name="gui.Controller" x="308" y="27">
+        <Association destinationClassName="bank.Bank"
+            endpointName="bank" kind="Simple"/>
+        <Association destinationClassName="gui.GUI"
+            endpointName="administrate" kind="Simple"/>
+    </CommunicationClass>
+    <CommunicationClass name="gui.GUI" x="206" y="34"/>
+    <CommunicationClass name="bank.Bank" x="671" y="67">
+        <Extension destinationClassName="bank.BankInterface"/>
+        <Communication destinationClassName="bank.Account"/>
+    </CommunicationClass>
+    <CommunicationClass name="bank.Account" x="432" y="40"/>
+</ClassDiagram>
